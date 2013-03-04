@@ -18,6 +18,7 @@ include_once "../lib/db.php";
 			?>
 		</div>
 		<?php
+		//qrq测试中= =...
 			mysql_query("set names utf8");
 			$sql="SELECT `zh_name`,`gender`,`grade`,`email`,`mobile` FROM `ucsdcarpool`.`cp_user` WHERE `id`= ".$_GET['id'];
 			//echo $sql;
